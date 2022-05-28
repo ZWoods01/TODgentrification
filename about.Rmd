@@ -1,0 +1,11 @@
+# What can this app do?
+This R-shiny based web application provides a look at the displacement that black homeowners and renters of Chicago experienced after the pink line opened in 2006.
+
+# Getting started
+In the drop-down menu, there are several demographic change variables. Explore these variables to see how zip codes serviced by the pink line experienced displacement after 2006.
+
+# Open source and open science
+This project emphasizes open source code and open science data practices. To explore the code and data, visit the data information tab.
+
+# Objective
+The objective of this web application is to provide an interactive environment to explore the displacement of black residents in pink line serviced zip codes following its opening. 

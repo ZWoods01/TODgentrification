@@ -1,0 +1,37 @@
+# Data sources & definitions:
+All data used to create the dashboard is available online free of charge. Sources include OpenStreetMap, the ACS 5-year estimate for 2017, CTA, and the Chicago Data Portal. Specific sourcing information is available below. URLs to download links are also provided.
+
+1 - Population taking public transit to work
+Source: 2017 ACS 5-year estimates
+
+2 - Population with at least 1 vehicle
+Source: 2017 ACS 5-year estimates
+
+3 - Population with no vehicles
+Source: 2017 ACS 5-year estimates
+
+4 - Number of transit stops = count of bus + rail stops
+Bus stop source: https://data.cityofchicago.org/Transportation/CTA-Bus-Stops-Shapefile/pxug-u72f
+
+Rail stop source: https://data.cityofchicago.org/Transportation/CTA-L-Rail-Stations-Shapefile/vmyy-m9qj/data
+
+5 - Number of transit routes = count of bus + rail routes
+Bus route source: https://data.cityofchicago.org/Transportation/CTA-Bus-Routes-Shapefile/d5bx-dr8z
+
+Rail route source: https://data.cityofchicago.org/Transportation/CTA-L-Rail-Lines-Shapefile/53r7-y88m
+
+6 - Total sidewalk length = sum of the lengths of all sidewalks
+Source: https://data.cityofchicago.org/widgets/77cn-6x4c
+
+7 - Total bike route length = sum of the lengths of all bike routes
+Source: https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8
+
+8 - Total road length = sum of the lengths of all roads
+Source: https://data.cityofchicago.org/Transportation/Street-Center-Lines/6imu-meau
+
+# Methodology
+All data was aggregated to the census tract level within the city of Chicago. The raw data, as well as the final, cleaned data table used, are provided under the “Data information” tab. Many spatial variables were calculated in R or QGIS before being added into the final dataset. Z-scores were calculated by subtracting the variable mean from each value and diving it by the standard deviation of the variable. Measures of transit supply, demand, and gap were calculated by the average of z-scores for each respective category.
+
+# Github repository
+https://github.com/ZWoods01/Chicago-Transit-Deserts
+
