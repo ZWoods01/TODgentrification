@@ -24,6 +24,7 @@ Rail route source: https://data.cityofchicago.org/Transportation/CTA-L-Rail-Line
 # Results
 
 # Discussion
+Overall, I found that home ownership and rentership increased overall in zip codes serviced by the pink line. Zip codes outside of the loop serviced by the pink line (to the west of the loop), had greater changes in home ownership (presumably due to the already saturated population of the loop). White homeowners acquired new homes at much larger rates than black homeowners in zip codes serviced by the pink line. Disparities in changes of racial demographics of rentership did not change significantly from 2000 to 2010.
 
 # Conclusions, Limitations, and Future Work
 While this project does provide an interesting look at how the pink line displaced black residents, it does have considerable limitations that make it insufficient for official use. Due to time constraints on this project, I was only able to gather data for these variables on one of the more recent rail lines that opened up in Chicago, the pink line. In the future, it is important that data be gathered for before and after the opening of other rail lines as well. A plethora of other variables could also be added to gain a better sense of how the opening of these rail lines affected the communities. This, of course, would also involve gathering historical decennial census data.
